@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    margin: 0;
+    font-family: Oswald;
+}
+h1 {
+    text-align: center;
+    border: 1px solid #000;
+    margin: 0;
+    margin-bottom: 30px;
+    background-color: #f8610a;
+    box-shadow: 0px 0px 5px 5px rgba(100, 100, 100, 0.5);
+}
+#site{
+    /*definimos a largura da pagina */
+    width: 1000px;
+    /*Definirmos a altura da pagina*/
+    height: 700px;
+    /*Aqui definiremos a posição que a pagina ocupara na tela, nesse caso
+    estamos definindo que fique centralizado na tela*/ 
+    /*top: posição de cima*/
+    margin-top: 0;
+    /*left: posição de esquerda*/
+    margin-left: auto;
+    /*bottom: posição de baixo*/
+    margin-bottom: 0;
+    /*right: posição de direita*/
+    margin-right: auto;
+    /*Aqui definiremos a cor de fundo da pagina */
+    /*background-color: #000;*/     
+
+}
+#header{
+    /*Novamente definimos a largura da div*/
+    width:1000px;
+    /* altura da div */
+    height:100px;
+    /* Cor de fundo da div */
+    background-color:#00F;
+    }
+ #conteudo{
+    /*Novamente definimos a largura da div*/
+    width:1000px;
+    /* altura da div */
+    height:500px;
+    /* Cor de fundo da div */
+    background-color:#0F0;
+  }
+  #footer{
+    /*Novamente definimos a largura da div*/
+    width:1000px;
+    /* altura da div */
+    height:100px;
+    /* Cor de fundo da div */
+    background-color:#C3C;
+    }
